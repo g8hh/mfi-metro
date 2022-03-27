@@ -77,7 +77,7 @@ var cnItems = {
     "kastark": "卡斯塔克",
     "Level": "等级",
     "Line names and colors are inspired by the real-world": "线条名称和颜色灵感来自现实世界",
-    "Lines": "线条",
+    "Lines": "干线",
     "Locomotive Horsepower": "机车马力",
     "Locomotives": "机车",
     "Locomotives can carry more cars.": "机车可以承载更多的汽车。",
