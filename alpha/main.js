@@ -1157,7 +1157,7 @@ function calcUpgrade6Cost() {
 
 function prestige() {
 	clearInterval(autosaveLoop);
-	if(confirm(`This will reset your progress and give you ${format(unrealizedPrestige)} Business Expertise. Are you sure?`) === true) {
+	if(confirm(`这将重置您的进度并为您提供 ${format(unrealizedPrestige)} 商业专业知识。 你确定吗?`) === true) {
 		unrealizedPrestige = calcUnrealizedPrestige();
 		prestigeReset();
 		gameData.bXP += unrealizedPrestige;
