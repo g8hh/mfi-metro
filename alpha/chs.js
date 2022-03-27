@@ -82,7 +82,7 @@ var cnItems = {
     "Locomotives": "机车",
     "Locomotives can carry more cars.": "机车可以承载更多的汽车。",
     "Marunouchi Line": "丸之内线",
-    "MFI Metro": "MFI地铁",
+    "MFI Metro": "火车帝国",
     "MFI Metro is currently in beta development and progress may be reset between versions. This will be avoided as much as possible.": "MFI Metro 目前处于 beta 开发阶段，版本之间可能会重置进度。这将尽可能地避免。",
     "More Perks": "更多福利",
     "Namboku Line": "南北线",
