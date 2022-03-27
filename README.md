@@ -1,39 +1,57 @@
-# mfiMetro
+# MFI Metro
 
-#### 介绍
-{**以下是 Gitee 平台说明，您可以替换此简介**
-Gitee 是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN）。专为开发者提供稳定、高效、安全的云端软件开发协作平台
-无论是个人、团队、或是企业，都能够用 Gitee 实现代码托管、项目管理、协作开发。企业项目请看 [https://gitee.com/enterprises](https://gitee.com/enterprises)}
+MFI Metro is a browser-based incremental game about building an ever-expanding train empire.
 
-#### 软件架构
-软件架构说明
+Play Here: [https://smmdesign.github.io/mfiMetro/](https://smmdesign.github.io/mfiMetro/ "MFI Metro")
 
 
-#### 安装教程
+## Bugs & Errors
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+If you encounter an issue of any kind, [please let me know here.](https://github.com/SMMdesign/mfiMetro/issues/new/choose/)
 
 
-#### 特技
+## Changelog
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+[View Roadmap](https://github.com/users/SMMdesign/projects/1/views/1)
+
+#### Version 0.50 - 2022/03/25
+
+- Prestige function added! Prestiging will give you a currency called bXP that will be used to buy prestige-exclusive upgrades.
+- Prestige shop with six different prestige upgrades added.
+- Prestige Shop will be unlocked after your 3rd line purchase and bXP gained is based on the total number of stations and rolling stock you have bought.
+- Savegames from earlier versions are no longer supported and will reset upon first game load.
+- Added Prestige and Options tabs.
+- Added option to temporarily change the UI's accent color.
+- Added an About section with more info about the game.
+- Updated UI to look better on small screens.
+- Adjusted game balance.
+
+
+#### Version 0.42 - 2022/03/18
+
+- Fixed bug that prevented the delete save button from working correctly sometimes.
+- Added number formatting for Million through Sextillion. Numbers larger than that will show in exponential form.
+- Locomotives and Cars now show their max possible capacity.
+- Added max buy buttons.
+- Pinned the bank to the top of the screen to keep it visible when scrolling on mobile.
+
+
+#### Version 0.41 - 2022/03/14
+
+- Adjusted game balance
+
+
+#### Version 0.40 - 2022/03/12
+
+- Big Update! Introduced the unique line function which expands the gameplay by a factor of 9!
+- Each line has it's own building and vehicles that have their own cost scaling, but each new line has an increasing cost.
+- UI update to highlight the unique lines and be responsive to mobile and desktop browsers.
+
+
+#### Version 0.35 - 2022/03/10
+
+- Redesigned Bank to better prevent values from visually overflowing.
+- Rewrote ticket price formula for better balance.
+- Removed pop-up alerts when buying something that is limited by another item.
+- Adjusted general cost balance.
+- Added a confirmation to the Delete Save button.
