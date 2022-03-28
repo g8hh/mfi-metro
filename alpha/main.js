@@ -460,7 +460,7 @@ function generatePassengers(number) {
 
 
 function setTicketPrice() {
-	let userPrice = prompt(`Set Price ( 1 - ${format(ticketPriceMax)} )`,"100");
+	let userPrice = prompt(`设定价格 ( 1 - ${format(ticketPriceMax)} )`,"100");
 	if(userPrice === null || isNaN(userPrice)) { return;}
 	if(userPrice < 1 || userPrice > ticketPriceMax) {
 		alert(`Please enter a number between 1 and ${format(ticketPriceMax)}.`); return;
